@@ -1,0 +1,40 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\GideonNtiBoateng\Desktop\Post_Grad\Stata_Works\todayLog.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res} 5 Feb 2024, 14:24:38
+{txt}
+{com}. 
+{txt}end of do-file
+
+{com}. do "C:\Users\GIDEON~1\AppData\Local\Temp\STD6180_000000.tmp"
+{txt}
+{com}. sysuse auto
+{err}no; dataset in memory has changed since last saved
+{txt}{search r(4), local:r(4);}
+
+end of do-file
+
+{search r(4), local:r(4);}
+
+{com}. do "C:\Users\GIDEON~1\AppData\Local\Temp\STD6180_000000.tmp"
+{txt}
+{com}. sysuse auto
+{err}no; dataset in memory has changed since last saved
+{txt}{search r(4), local:r(4);}
+
+end of do-file
+
+{search r(4), local:r(4);}
+
+{com}. do "C:\Users\GIDEON~1\AppData\Local\Temp\STD6180_000000.tmp"
+{txt}
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\GideonNtiBoateng\Desktop\Post_Grad\Stata_Works\todayLog.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res} 5 Feb 2024, 14:25:33
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
